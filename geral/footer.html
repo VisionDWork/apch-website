@@ -1,0 +1,137 @@
+<footer class="footer">
+  <div class="footer-left">
+    <p id="footer-name">Associação Portuguesa das Casas Históricas</p>
+    <!-- <p>Largo do Terreiro do Trigo, 11 - 1º Dtº, 1100-603 Lisbon</p> -->
+  </div>
+  <div>
+    <img onclick="window.location.replace('#')" src="/content/imgs/logos/logo-white.png" alt="logo" style="width: 6rem;">
+  </div>
+  <div class="footer-right">
+    <div>
+      <p>Tel. (+351) 218 876 675</p>
+      <a style="cursor: pointer;" href="mailto: geral@casasantigas.org">geral@casasantigas.org</a>
+    </div>
+  </div>
+  <div id="footer-bottom">
+    <p>Powered by <span onclick="window.location.replace('https://visiond.pt')" style="cursor: pointer; color: black; font-weight: bold;">Vision D</span></p>
+    <p id="footer-bottom-text">© All rights reserved to APCH 2023</p>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--red);
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    padding-inline: 8vw;
+  }
+
+  .footer div:nth-child(2) {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-left,
+  .footer-right {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .footer-right {
+    align-items: center;
+  }
+  
+  .footer div p,
+  .footer a {
+    text-align: left;
+    color: white;
+    width: 100%;
+    text-decoration: none;
+  }
+
+  .footer .footer-right p,
+  .footer .footer-right a {
+    text-align: right;
+  }
+  
+  .footer img {
+    cursor: pointer;
+  }
+
+  #footer-bottom {
+    position: absolute;
+    bottom: 0; 
+    left: 50%; 
+    width: 100%;
+    transform: translate(-50%, 0%);
+  }
+
+  #footer-bottom p {
+    width: 100%;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 900px) {
+    .footer {
+      grid-template-columns: 70% 30%;
+    }
+
+    .footer div:nth-child(2) {
+      display: none;
+    }
+    
+    .footer-right {
+      align-items: flex-end;
+    }
+  }
+
+  @media screen and (max-width: 650px) {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .footer div:nth-child(2) {
+      display: block;
+    }
+
+    .footer div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .footer-right {
+      align-items: flex-end;
+    }
+
+    .footer div p,
+    .footer a {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .footer {
+      padding-inline: 0;
+    }
+  }
+</style>

@@ -1,0 +1,37 @@
+{
+  "en": {
+    "home": {
+      "title": "Portuguese Association <br> of Historic Houses",
+      "text": {
+        "one": "Founded in January 1978, the Portuguese Association of Historic Houses, now renamed as Historic Houses, is a nonprofit cultural association that brings together the owners of heritage properties, from manor houses to rural homes, spread throughout the country (from the mainland to the islands). <br> Its objective is to safeguard these Houses and their surroundings, integrated into their landscape, historical, and familial contexts, as witnesses to the history of the territories they are part of, collectively contributing to the national history.<br><br>",
+        "two": "Currently, the Association has more than two hundred members and has recently been recognized as having public utility status.",
+        "three": "The Portuguese Association of Historic Houses aims to carry out actions that promote the study and research of Historic Houses, foster initiatives and protocols with national and international institutions that aim to promote and enhance the heritage of its members.<br><br>",
+        "four": "On the international level, PAHH is a full member of \"Europa Nostra\" and the \"European Union of Historic Houses Associations\", international federations with advisory status at UNESCO, the Council of Europe, and the European Union."
+      },
+      "btns": {
+        "one": "About PAHH",
+        "two": "Become a Member",
+        "three": "Benefits",
+        "four": "Documentation"
+      }
+    }
+  },
+  "pt": {
+    "home": {
+      "title": "Associação Portuguesa <br> das Casas Históricas",
+      "text": {
+        "one": "Fundada em Janeiro de 1978,  a Associação Portuguesa das Casas Antigas, agora renomeada das Casas Históricas, é uma associação cultural sem fins lucrativos que reúne os proprietários de imóveis de interesse patrimonial, desde o Paços senhoriais às Casas rurais, espalhados por todo o país (do continente às ilhas). <br> O seu objectivo é o da salvaguarda das Casas e das suas envolventes, integradas nos seus contextos paisagísticos, históricos, e familiares, enquanto testemunhos da História dos territórios nos quais se inserem, sendo no seu conjunto, parte da História nacional.<br><br>",
+        "two": "Actualmente a Associação conta com mais de duzentos associados tendo visto, recentemente, reconhecido o seu estatuto de utilidade pública.",
+        "three": "A Associação Portuguesa das Casas Históricas tem como objectivo desenvolver acções que promovam o estudo e a investigação sobre as Casas Históricas, fomentem acções e protocolos com instituições nacionais e internacionais, que visem a divulgação e a valorização do património dos seus associados.<br><br>",
+        "four": "A nível internacional, a APCH é membro de pleno direito da \"Europa Nostra\"   e da \"União Europeia das Associações de Proprietários de Casas Históricas\", federações internacionais que possuem um estatuto consultivo na UNESCO, no Conselho da Europa e na União Europeia."
+      },
+      "btns": {
+        "one": "Sobre a APCH",
+        "two": "Tornar-se membro",
+        "three": "Benefícios",
+        "four": "Documentação"
+      }
+    }
+  }
+}
+  

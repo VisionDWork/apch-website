@@ -1,0 +1,49 @@
+{
+  "en": {
+    "titles": [
+      "News",
+      "General"
+    ],
+    "news": [
+      {
+        "title": "Renewal of APCH",
+        "date": "July 2023",
+        "text": "The association renews its website along with its name, which changed from Portuguese Association of Old Houses to Portuguese Association of Historic Houses."
+      },
+      {
+        "title": "Hiscox/Innovarisk",
+        "date": "July 2023",
+        "text": "Realization of the partnership between APCH and Hiscox/Innovarisk. 'A historic house is much more than a simple construction, it is a work of art that deserves tailor-made insurance, adapting to its unique needs.'"
+      },
+      {
+        "title": "Airbnb",
+        "date": "June 2023",
+        "text": "Airbnb announces a partnership with Historic Houses to support heritage tourism in Portugal. This initiative marks another step in Airbnb's commitment to supporting the preservation of unique historic houses and driving the development of heritage tourism in Europe."
+      }
+    ]
+  },
+  "pt": {
+    "titles": [
+      "Notícias",
+      "Geral"
+    ],
+    "news": [
+      {
+        "title": "Renovação da APCH",
+        "date": "Julho de 2023",
+        "text": "A associação renova o seu website juntamente com o seu nome que passou de associação portuguesa das casas antigas para associação portuguesa das casas históricas."
+      },
+      {
+        "title": "Hiscox/Innovarisk",
+        "date": "Julho de 2023",
+        "text": "Realização da parceria entre a APCH e a Hiscox/Innovarisk. \"Uma casa histórica é muito mais que uma simples construção, é uma obra de Arte que merece um Seguro à sua medida, adaptando-se às suas necessidades exclusivas\"."
+      },
+      {
+        "title": "Airbnb",
+        "date": "Junho de 2023",
+        "text": "A Airbnb anuncia uma parceria com as Casas Antigas para apoiar o turismo patrimonial em Portugal. Esta iniciativa marca mais um passo no compromisso da Airbnb de apoiar a preservação de casas históricas únicas e impulsionar o desenvolvimento do turismo patrimonial na Europa."
+      }
+    ]
+  }
+}
+  

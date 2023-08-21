@@ -1,0 +1,47 @@
+/* Geral */
+
+* {
+    --red: #A23935;
+    --black: #000000;
+    --background: #FFFFFF;
+    --grey: #515151;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    /* outline: solid 1px limegreen; */
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--background);
+    overflow-x: hidden;
+    padding-top: 12rem;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: font-headers;
+    color: var(--red);
+}
+
+p,a {
+    font-family: proxima-nova;
+    color: var(--black);
+}
+
+span {
+    font-family: proxima-nova;
+    color: var(--black);
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        padding-top: 0;
+    }
+}

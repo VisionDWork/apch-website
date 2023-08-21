@@ -1,0 +1,371 @@
+#events {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    padding-top: 7rem;
+    padding-left: 6vw;
+    overflow: hidden;
+}
+
+#events::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../content/imgs/others/events.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: brightness(.9);
+}
+
+#events-left {
+    position: relative;
+    width: 35%;
+}
+
+#events-right {
+    position: relative;
+    width: 40%;
+    padding-inline: 10rem;
+    padding-top: 5rem;
+}
+
+#events-left h1 {
+    font-weight: normal;
+    font-size: 3.4rem;
+    color: white;
+}
+
+#events-left h3 {
+    color: white;
+    font-family: proxima-nova;
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+#events-left p {
+    color: var(--grey);
+    margin-bottom: 1rem;
+}
+
+#events-right-slider {
+    position: relative;
+    height: 75%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#events-right-slider p {
+    position: relative;
+    margin-bottom: 1.5rem;
+    font-size: 1.7rem;
+    color: white;
+    animation: slide-up infinite linear 25000ms;
+}
+
+@keyframes slide-up {
+    100% {
+        transform: translateY(-66rem);
+    }
+}
+
+
+#events-cards {
+    position: relative;
+    min-height: 80vh;
+    padding-top: 5rem;
+}
+
+#events-cards h1 {
+    font-weight: normal;
+    color: var(--grey);
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#events-cards-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.events-card-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 21.5rem;
+    height: 27rem;
+}
+
+
+.events-card {
+    position: relative;
+    width: 21.5rem;
+    height: 21.5rem;
+    overflow: hidden;
+}
+
+.events-card img {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 8;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: all 300ms ease-in;
+}
+
+.events-text {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 9;
+    padding-inline: 1.5rem;
+    padding-block: 2rem;
+}
+
+.events-card:hover img {
+    filter: brightness(.8);
+    transform: scale(1.1);
+}
+
+.events-card:hover .events-text-top {
+    opacity: 1;
+}
+
+.events-text-top {
+    opacity: 0;
+    transition: all 300ms ease-in;
+}
+
+.events-text-top p {
+    color: white;
+}
+
+.events-text-bott {
+    position: relative;
+    bottom: 3rem;
+}
+
+.events-text-bott p,
+.events-text-bott h4  {
+    color: white;
+    font-family: .8rem;
+    font-weight: bold;
+}
+
+.events-text-bott h4 {
+    font-size: 1.7rem;
+    font-family: proxima-nova;
+}
+
+.events-btn {
+    position: relative;
+    width: 100%;
+    height: 3.2rem;
+
+    background-color: transparent;
+    border: solid 2.5px var(--red);
+    border-radius: 5px;
+
+    color: var(--red);
+    font-weight: bold;
+    cursor: pointer;
+    
+    font-size: 1.1rem;
+    font-family: font-headers;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 200ms ease-in;
+    z-index: 10;
+}
+
+.events-btn:hover {
+    background-color: var(--red);
+    color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    #events-left {
+        width: 50%;
+    }
+
+    #events-right {
+        width: 50%;
+    }
+
+    #events-left h3 {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .events-card-box {
+        width: 18rem;
+        height: 24rem;
+    }
+    
+    .events-card {
+        position: relative;
+        width: 18rem;
+        height: 18rem;
+        overflow: hidden;
+    }    
+}
+
+@media screen and (max-width: 1000px) {
+    #events {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        height: 130vh;
+    }
+
+    #events::before {
+        background-position: 20%;
+    }
+
+    #events-left {
+        padding: 0;
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+
+    #events-right {
+        padding: 0;
+        width: 80%;
+    }
+    
+    #events-right-slider p {
+        font-size: 1.4rem;
+        margin-bottom: 3.3rem;
+        animation-duration: 30000ms;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #events-cards-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-bottom: 3rem;
+        gap: 3rem;
+    }
+
+    .events-card-box {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        width: 21.5rem;
+        height: 27rem;
+    }
+    
+    
+    .events-card {
+        position: relative;
+        width: 21.5rem;
+        height: 21.5rem;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #events {
+        padding-top: 9rem;
+    }
+
+    #events::before {
+        background-position: 30%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    #events {
+        height: 110vh;
+        padding-right: 2rem;
+    }
+
+    #events::before {
+        filter: brightness(.75);
+        background-position: 85%;
+    }
+
+    #events-left {
+        width: 100%;
+    }
+
+    #events-right {
+        width: 100%;
+    }
+
+    #events-left p {
+        color: white;
+    }
+
+    .events-card-box {
+        width: 18rem;
+        height: 24rem;
+    }
+    
+    .events-card {
+        position: relative;
+        width: 18rem;
+        height: 18rem;
+        overflow: hidden;
+    }  
+
+    #events-cards h1 {
+        font-size: 2rem;
+    }
+
+    #events-cards .events-text-top p {
+        font-size: .9rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    #events-right-slider p {
+        font-size: 1.2rem;
+        margin-bottom: 2.8rem;
+        animation-duration: 40000ms;
+    }
+
+    #events-left h1 {
+        font-size: 2.6rem;
+    }
+
+    #events-left h3 {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #events-left h3 {
+        font-size: 1rem;
+    }
+
+    #events-cards h1 {
+        font-size: 1.8rem;
+    }
+}

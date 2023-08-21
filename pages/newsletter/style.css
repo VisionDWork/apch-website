@@ -1,0 +1,19 @@
+#newsletter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+@media screen and (max-width: 600px) {
+    #newsletter h1 {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #newsletter h1 {
+        font-size: 1.4rem;
+    }
+}

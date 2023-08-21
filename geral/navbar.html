@@ -1,0 +1,237 @@
+<nav class="navbar">
+    <div id="navbar-header">
+      <img onclick="window.location.replace('/index.html')" src="/content/imgs/logos/logo-red.png" alt="logo">
+      <div class="navbar-header-lang">
+        <button class="pt-btn selected"><b>PT</b></button>
+        <button class="en-btn"><b>EN</b></button>
+      </div>
+      <div id="navbar-header-menu" onclick="openMenu()">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <ul id="navbar-links">
+      <li><b><a class="nav-link" href="/pages/about/about.html">Sobre</a></b></li>
+      <li><b><a class="nav-link" href="/pages/events/events.html">Eventos</a></b></li>
+      <li><b><a class="nav-link" href="/pages/members/members.html">Associados</a></b></li>
+      <li><b><a class="nav-link" href="/pages/news/news.html">Notícias</a></b></li>
+      <li><b><a class="nav-link" href="/pages/newsletter/newsletter.html">Newsletter</a></b></li>
+      <li class="navbar-header-lang">
+        <button class="pt-btn selected"><b>PT</b></button>
+        <button class="en-btn"><b>EN</b></button>
+      </li>
+    </ul>
+</nav>
+
+<style>
+  /* Navbar CSS */
+
+  nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 10;
+  }
+
+  #navbar-header {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 2rem;
+    padding-inline: 8vw;
+  }
+
+  #navbar-header img {
+    position: relative;
+    width: 6rem;
+    cursor: pointer;
+  }
+
+  .navbar-header-lang button {
+    background-color: white;
+    border: none;
+    border-radius: 100vw;
+    padding: 5px;
+    color: var(--red);
+    cursor: pointer;
+  }
+
+  .navbar-header-lang button.selected {
+    background-color: var(--red);
+    color: white;
+  }
+
+  #navbar-header-menu {
+    z-index: 200;
+    display: none;
+  }
+
+  #navbar-header-menu div {
+    position: relative;
+    width: 20px;
+    background-color: var(--red);
+    background-position: right;
+    height: 3px;
+    transition: all 500ms ease-in-out;
+  }
+
+  #navbar-header-menu.open div:nth-child(1) {
+      width: 12px;
+      transform: rotate(45deg) translateY(4px);
+  }
+
+  #navbar-header-menu.open div:nth-child(3) {
+      width: 12px;
+      transform: rotate(-45deg) translateY(-4px);
+  }
+
+  #navbar-header-menu.open div:nth-child(2) {
+      opacity: 0;
+  }
+
+  #navbar-header-menu.open div {
+      background-color: white;
+  }
+
+  #navbar-header-menu.open div:nth-child(2) {
+      opacity: 0;
+  }
+
+  #navbar.open #navbar-header-menu-mobile {
+    position: absolute;
+    height: 100vh;
+    width: 80%;
+
+    background-color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  #navbar-links {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    padding-bottom: 1rem;
+  }
+
+  #navbar-links li,
+  #navbar-links a {
+    position: relative;
+    bottom: 0;
+    color: var(--red);
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: all 150ms ease-in;
+  }
+
+  #navbar-links .nav-link:hover {
+    bottom: 5px;
+  }
+
+  #navbar-links .nav-link.active {
+      color: var(--black);
+  }
+
+  #navbar-links .nav-link.active:hover {
+    bottom: 0px;
+  }
+
+  #navbar-links .navbar-header-lang {
+    display: none;
+  }
+  
+  /* Navbar Media Queries */
+
+  @media screen and (max-width: 800px) {
+
+    #navbar.open nav {
+      height: 100vh;
+    }
+
+    #navbar-header img {
+      width: 4rem;
+    }
+
+    #navbar-header .navbar-header-lang {
+      display: none;
+    }
+
+    .navbar-header-lang button {
+      background-color: var(--red);
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    .navbar-header-lang button.selected {
+      background-color: white;
+      color: var(--red);
+    }
+
+    #navbar-header-menu {
+      height: 15px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+    }
+
+    #navbar-links::before {
+        content: '';
+    }
+
+    #navbar.open #navbar-links::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, .5);
+        transform: translateX(-100%);
+    }
+
+    #navbar-links {
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 9;
+      width: 17rem;
+      height: 100vh;
+      padding-top: 2rem;
+      padding-right: 8vw;
+
+      background-color: var(--red);
+      transform: translateX(100%);
+      transition: all 600ms ease-in-out;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    #navbar.open #navbar-links {
+      transform: translateX(0);
+    }
+
+    #navbar-links a {
+      color: white;
+    }
+
+    #navbar-links .navbar-header-lang {
+      display: block;
+    }
+    
+  }
+
+</style>
+

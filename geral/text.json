@@ -1,0 +1,27 @@
+{
+    "en": {
+      "navbar": {
+        "about": "About",
+        "events": "Events",
+        "members": "Members",
+        "news": "News Page",
+        "newsletter": "Newsletter"
+      },
+      "footer": {
+        "name": "Portuguese Association of Historic Houses"
+      }
+    },
+    "pt": {
+      "navbar": {
+        "about": "Sobre",
+        "events": "Eventos",
+        "members": "Associados",
+        "news": "Notícias",
+        "newsletter": "Newsletter"
+      },
+      "footer": {
+        "name": "Associação Portuguesa das Casas Históricas"
+      }
+    }
+}
+  

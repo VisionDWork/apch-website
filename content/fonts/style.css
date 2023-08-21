@@ -1,0 +1,11 @@
+@import url("https://use.typekit.net/ebu7aqj.css");
+
+@font-face {
+  font-family: font-headers;
+  src: url(./font-headers.ttf);
+}
+
+@font-face {
+  font-family: font-headers-bold;
+  src: url(./font-headers-bold.ttf);
+}

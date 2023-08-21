@@ -1,0 +1,95 @@
+<header id="header-all">
+    <div class="header-container">
+        <div class="header-img"><img src="/content/imgs/header/home/casa1.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/home/casa2.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/home/casa3.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/home/casa4.jpg" alt="img"></div>
+    </div>
+    <div class="header-container">
+        <div class="header-img"><img src="/content/imgs/header/about/casa1.png" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/about/casa2.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/about/casa4.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/about/casa3.png" alt="img"></div>
+    </div>
+    <div class="header-container">
+        <div class="header-img"><img src="/content/imgs/header/members/casa1.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/members/casa4.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/members/casa2.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/members/casa3.jpg" alt="img"></div>
+    </div>
+    <div class="header-container">
+        <div class="header-img"><img src="/content/imgs/header/news/casa3.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/news/casa1.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/news/casa4.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/news/casa2.jpg" alt="img"></div>
+    </div>
+
+    <div class="header-container">
+        <div class="header-img"><img src="/content/imgs/header/home/casa1.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/home/casa2.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/home/casa3.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/home/casa4.jpg" alt="img"></div>
+    </div>
+    <div class="header-container">
+        <div class="header-img"><img src="/content/imgs/header/about/casa1.png" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/about/casa2.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/about/casa4.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/about/casa3.png" alt="img"></div>
+    </div>
+    <div class="header-container">
+        <div class="header-img"><img src="/content/imgs/header/members/casa1.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/members/casa4.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/members/casa2.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/members/casa3.jpg" alt="img"></div>
+    </div>
+    <div class="header-container">
+        <div class="header-img"><img src="/content/imgs/header/news/casa3.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/news/casa1.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/news/casa4.jpg" alt="img"></div>
+        <div class="header-img"><img src="/content/imgs/header/news/casa2.jpg" alt="img"></div>
+    </div>
+</header>
+
+<style>
+    
+    header {
+        position: relative;
+        display: flex;
+        z-index: 9;
+        overflow: hidden;
+        width: 800vw;
+        animation: slide-left linear infinite 180000ms;
+    }
+
+    .header-container {
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        width: 100vw;
+    }
+
+    @keyframes slide-left {
+        100% {
+            transform: translateX(-400vw);
+        }
+    }
+
+    .header-img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-img img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+
+    @media screen and (max-width: 800px) {
+        header {
+            padding-top: 8rem;
+        }
+    }   
+
+</style>

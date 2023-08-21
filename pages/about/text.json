@@ -1,0 +1,45 @@
+{
+  "en": {
+    "title": "About PAHH",
+    "title2": "Values and Mission",
+    "textLeft": {
+      "one": "The Portuguese Association of Historic Houses brings together a collection of privately owned buildings that, due to their uniqueness and cultural value, are an asset to the territories they are situated in. They serve as attractions for visitors and also foster bonds of identity and belonging. They play a role in driving economic development, social and territorial cohesion, shaping cultural identity, and promoting the enhancement of urban and rural spaces.",
+      "two": "Maintaining these buildings and complexes, as examples of immovable cultural heritage and repositories of family and local traditions, is a challenging endeavor that requires sacrifices from their owners. It is this challenge that the Portuguese Association of Historic Houses, as the voice of its members, aims to contribute to.",
+      "three": "With 45 years of experience in this field, the Portuguese Association of Historic Houses, formerly known as the Association of Old Houses, has represented and defended the legitimate common interests of property owners. This includes interactions with public authorities and entities, providing legal and technical support, consultancy, guiding classification processes for protection and preservation of assets, seeking property tax exemptions, seeking subsidies for maintenance, restoration, and/or redevelopment, exploring self-sustainability approaches for buildings and surrounding spaces, and securing benefits for members in relations with service providers, among others.",
+      "four": "The importance and value of our Association have earned official recognition from the State, particularly from the Ministry of Culture/SEC, reflected in the status as a public utility association and consequently, facilitated support from sponsors."
+    },
+    "textRight": {
+      "title": "From a study carried out by PAHH",
+      "title2": "PAHH partnerships",
+      "text": {
+        "one": "There are over 4,000 historic houses in Portugal.",
+        "two": "This universe of historic houses employs over 4,000 people.",
+        "three": "They act as an 'anchor' for the local development of villages and towns across the national territory.",
+        "four": "There are houses in perfect state of conservation and others almost in ruins, for which means of recovery are urgently needed.",
+        "five": "Discover the partnerships that help us in our mission."
+      }
+    }
+  },
+  "pt": {
+    "title": "Sobre a APCH",
+    "title2": "Valores e missão",
+    "textLeft": {
+      "one": "A Associação Portuguesa das Casas Históricas congrega um conjunto de edifícios pertença de particulares que pela sua singularidade e valor cultural, são uma mais-valia para os territórios em que se inserem, tanto enquanto factores de atracção para os visitantes, como por sedimentarem laços de identidade e pertença. São assim impulsionadores de desenvolvimento económico, e coesão social e territorial, polarizadores da identidade cultural e promotores da qualificação dos espaços urbanos e rurais.",
+      "two": "A manutenção destes edifícios e conjuntos, enquanto exemplares de património cultural imóvel e, em simultâneo, repositórios de tradições familiares e locais, constitui um exercício árduo, não isento de sacrifícios para os seus proprietários. É para esse desafio que a Associação Portuguesa das Casas Históricas, enquanto expressão dos seus sócios, pretende contribuir.",
+      "three": "Com 45 anos de experiência nesta actividade, a Associação Portuguesa das Casas Antigas, agora redenominada das Casas Históricas, tem representado e defendido os legítimos interesses comuns dos proprietários, nomeadamente junto dos poderes e organismos públicos e outras entidades, bem como facultado aos seus sócios, diversos serviços no âmbito do apoio jurídico e técnico, da consultoria, da instrução de processos de classificação com vista à protecção e salvaguarda dos bens, bem como à isenção do IMI, na procura de subsídios para manutenção, restauro, e/ou requalificação, na procura de formas de auto-sustentabilidade dos edifícios e espaços envolventes, na obtenção de vantagens para os sócios na relação com fornecedores de serviços, entre outros.",
+      "four": "A importância e a valia da nossa Associação, tem merecido o reconhecimento oficial do Estado, designadamente, do Ministério da Cultura/SEC traduzido na concessão do estatuto de associação de utilidade pública e por conseguinte, da facilitação do apoio por parte de Mecenas."
+    },
+    "textRight": {
+      "title": "De um estudo levado a cabo pela APCH",
+      "title2": "Parceiros da APCH",
+      "text": {
+        "one": "Existem mais de 4 mil casas históricas em Portugal.",
+        "two": "Este universo de casas históricas emprega mais de 4 mil pessoas.",
+        "three": "Agem como “âncora” para o desenvolvimento local de aldeias e vilas espalhadas por todo o território nacional.",
+        "four": "Existem casas em perfeito estado de conservação e outras praticamente em ruínas, para as quais urge encontrar meios para a sua recuperação.",
+        "five": "Descubra os parceiros que nos acompanham e ajudam na nossa missão."
+      }
+    }
+  }
+}
+  

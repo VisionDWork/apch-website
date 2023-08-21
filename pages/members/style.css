@@ -1,0 +1,276 @@
+#members {
+    padding-inline: 8vw;
+    padding-block: 2rem;
+}
+
+#members-top {
+    width: 100%;
+}
+
+#members-top h1,
+#members-top h2 {
+    margin-bottom: 1rem;
+}
+
+#members-bottom {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+#members-left {
+    width: 45%;
+}
+
+#members-left h2 {
+    margin-bottom: 1rem;
+}
+
+#members-right {
+    width: 45%;
+}
+
+#members-left p {
+    margin-bottom: 1.5rem;
+}
+
+#members-right-top h2,
+#members-right-bottom h2 {
+    margin-bottom: 1rem;
+}
+
+#members-right-top {
+    margin-bottom: 3rem;
+}
+
+#members-right-bottom {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2rem;
+}
+
+#members-right-bottom p {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#members-table-btn {
+    font-size: 1.3rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#members-table {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#members-table-container {
+    position: relative;
+    width: 45rem;
+}
+
+#members-table-container img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#members-table-container h3 {
+    text-align: right;
+    width: 100%;
+    font-size: 1rem;
+    margin: 0;
+}
+
+#members-info {
+    position: relative;
+    padding-inline: 15vw;
+    padding-block: 4rem;
+    gap: 10rem;
+    background-color: var(--red);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+#members-info-left,
+#members-info-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    width: 50%;
+    height: 100%;
+}
+
+#members-info h2 {
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#members-info li {
+    font-size: 1rem;
+    font-weight: normal;
+    font-family: proxima-nova;
+    margin-bottom: 1rem;
+}
+
+#members-subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-inline: 8vw;
+    min-height: 20rem;
+
+}
+
+#members-subscribe button {
+    position: relative;
+    padding: 15px;
+    width: 15rem;
+
+    background-color: transparent;
+    border: solid 2.5px var(--red);
+    border-radius: 3px;
+
+    color: var(--red);
+    font-weight: bold;
+    cursor: pointer;
+    
+    font-size: 1rem;
+    font-family: font-headers;
+    transition: all 250ms ease-in;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+#members-subscribe button:hover {
+    background-color: var(--red);
+    color: white;
+}
+
+#members-subscribe p {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1300px)
+{
+    #members-right-bottom {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #members-info {
+        gap: 6rem;
+    }
+}
+
+@media screen and (max-width: 1000px) 
+{
+    #members-table-container {
+        width: 35rem;
+    }
+
+    #members-info {
+        padding-inline: 8vw;
+    }
+}
+
+@media screen and (max-width: 800px)
+{
+    #members-bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    #members-left,
+    #members-right {
+        width: 100%;
+    }
+
+    #members-right-bottom {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    #members-table-container {
+        width: 30rem;
+    }
+
+    #members-table {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 60vh;
+    }
+
+    #members-info {
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    #members-info-left,
+    #members-info-right {
+        width: 100%;
+    }
+
+    #members-info ul {
+        padding-left: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 600px)
+{
+    #members-table-container {
+        width: 23rem;
+    }
+
+    #members-subscribe p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+
+    #members-top h1 {
+        font-size: 1.8rem;
+    }
+
+    #members-right-bottom {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #members-subscribe button {
+        padding: 15px;
+        width: 11rem;
+        font-size: .8rem;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    #members-table-container {
+        width: 18rem;
+    }
+
+    #members-table-container h3 {
+        font-size: .8rem;
+    }
+
+    #members-info h2 {
+        font-size: 1.4rem;
+    }
+}
