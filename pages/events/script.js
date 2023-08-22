@@ -38,4 +38,36 @@ function loadDataPage(language) {
     });
 }
 
+const cardBoxes = document.querySelectorAll('.events-card-box');
+
+cardBoxes.forEach(cardBox => {
+  cardBox.addEventListener('click', function() {
+    // Reset styles for all cards
+    cardBoxes.forEach(box => {
+        box.querySelector('.events-card-img').style.filter = '';
+        box.querySelector('.events-card-img').style.transform = '';
+        box.querySelector('.events-text-top').style.opacity = '';
+    });
+
+    const cardImg = cardBox.querySelector('.events-card-img');
+    const cardTextTop = cardBox.querySelector('.events-text-top');
+
+    cardImg.style.filter = 'brightness(.8)';
+    cardImg.style.transform = 'scale(1.1)';
+    cardTextTop.style.opacity = '1';
+  });
+});
+
+function resetCardStyles() {
+  cardBoxes.forEach(box => {
+      box.querySelector('.events-card-img').style.filter = '';
+      box.querySelector('.events-card-img').style.transform = '';
+      box.querySelector('.events-text-top').style.opacity = '';
+  });
+}
+
+document.body.addEventListener('click', function() {
+  resetCardStyles(); 
+});
+
 loadDataPage(getSelectedLanguage());

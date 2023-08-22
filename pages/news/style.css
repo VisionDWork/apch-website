@@ -1,7 +1,7 @@
 #news {
     position: relative;
     padding-top: 5rem;
-    overflow-x: hidden;
+    overflow: hidden;
     --cardw: 20rem;
 }
 
@@ -21,7 +21,7 @@
     width: 100vw;
     height: 100%;
     margin-bottom: 7rem;
-    overflow-x: hidden;
+    overflow: hidden;
     transition: all 750ms ease-in-out;
 }
 
