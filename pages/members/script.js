@@ -27,11 +27,9 @@ function updateContentPage(language, data) {
     });
 
     if (language === 'pt') {
-      document.getElementById('table-pt').style.display = 'flex';
-      document.getElementById('table-en').style.display = 'none';
+      document.getElementById('table-pt').src = "../../content/imgs/members/table1.png";
     } else {
-      document.getElementById('table-pt').style.display = 'none';
-      document.getElementById('table-en').style.display = 'flex';
+      document.getElementById('table-pt').src = "../../content/imgs/members/table-en.png";
     }
 }
 

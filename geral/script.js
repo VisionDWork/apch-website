@@ -87,7 +87,6 @@ function langButtons() {
 
 window.addEventListener('scroll', () => {
   document.getElementById('navbar').classList.remove('open');
-  document.getElementById('navbar-header-menu').classList.remove('open');
 });
 
 function getSelectedLanguage() {
