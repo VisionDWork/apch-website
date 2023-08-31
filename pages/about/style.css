@@ -15,7 +15,7 @@
 #about-bottom {
     position: relative;
     display: flex;
-    gap: 3rem;
+    gap: 5rem;
 }
 
 #about-left {
@@ -52,6 +52,15 @@
     margin-bottom: 2rem;
 }
 
+#about-right-bottom ul {
+    padding-left: 1rem;
+}
+
+#about-right-bottom li {
+    font-size: 1rem;
+    color: var(--red);
+}
+
 #about-right-imgs {
     width: 100%;
     height: 25rem;
@@ -60,12 +69,6 @@
 
 #about-right-imgs img {
     width: 100%;
-}
-
-
-#about-partnerships {
-    list-style: none;
-    font-size: 1rem;
 }
 
 
