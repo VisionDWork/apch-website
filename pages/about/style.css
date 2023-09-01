@@ -46,6 +46,7 @@
 #about-right-top li {
     font-size: 1rem;
     color: var(--red);
+    display: flex;
 }
 
 #about-right-bottom {
@@ -59,6 +60,16 @@
 #about-right-bottom li {
     font-size: 1rem;
     color: var(--red);
+}
+
+#about-right-bottom li div {
+    display: flex;
+    gap: 1rem;
+}
+
+#about-right-bottom li div img {
+    height: 1.5rem;
+    cursor: pointer;
 }
 
 #about-right-imgs {
