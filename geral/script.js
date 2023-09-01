@@ -109,6 +109,8 @@ $('#footer').load('/geral/footer.html', function() {
 
   loadData(getSelectedLanguage());
 
+  console.log(getSelectedLanguage());
+
   // Active navbar link
 
   var currentUrl = window.location.href;
