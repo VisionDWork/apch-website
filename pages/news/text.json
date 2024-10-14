@@ -1,10 +1,17 @@
 {
   "en": {
-    "titles": [
-      "News",
-      "General"
-    ],
+    "titles": ["News", "General"],
     "news": [
+      {
+        "title": "APCH Ball",
+        "date": "October 2024",
+        "text": "The Portuguese Association of Historic Houses, with the support of Palácio de Xabregas, is promoting a GALA BALL to be held at Palácio de Xabregas on Saturday, November 16, 2024."
+      },
+      {
+        "title": "General Assembly",
+        "date": "June 2024",
+        "text": "The General Assembly of the Portuguese Association of Historic Houses took place in June in the city of Braga, at the fantastic Casa do Campo das Hortas of our associate Dr. António Cunha Reis, who kindly offered it for this event."
+      },
       {
         "title": "Renewal of APCH",
         "date": "July 2023",
@@ -23,11 +30,18 @@
     ]
   },
   "pt": {
-    "titles": [
-      "Notícias",
-      "Geral"
-    ],
+    "titles": ["Notícias", "Geral"],
     "news": [
+      {
+        "title": "Baile da APCH",
+        "date": "Outubro 2024",
+        "text": "A Associação Portuguesa das Casas Históricas , com o apoio do Palácio de Xabregas, está a promover um BAILE DE GALA a realizar no Palácio de Xabregas no sábado 16 de novembro de 2024"
+      },
+      {
+        "title": "Assembleia Geral",
+        "date": "Junho 2024",
+        "text": "Decorreu em junho na cidade de Braga a Assembleia Geral da Associação Portuguesa das Casas Históricas, na fantástica Casa  do Campo das Hortas do nosso associado Drº António Cunha Reis, que amavelmente a ofereceu  para este evento."
+      },
       {
         "title": "Renovação da APCH",
         "date": "Julho de 2023",
@@ -46,4 +60,3 @@
     ]
   }
 }
-  

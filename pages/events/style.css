@@ -148,6 +148,7 @@
     z-index: 9;
     padding-inline: 1.5rem;
     padding-block: 2rem;
+    font-weight: bold;
 }
 
 .events-card-box:hover .events-card-img {
