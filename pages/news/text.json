@@ -3,6 +3,11 @@
     "titles": ["News", "General"],
     "news": [
       {
+        "title": "Gala Dinner",
+        "date": "November 2024",
+        "text": "Palácio de Xabregas hosted, on November 16, the 1st gala dinner of the Portuguese Association of Historic Houses. Eng. António de Mello highlighted the commitment to the preservation of private heritage. The event featured European representatives, music, and dance."
+      },
+      {
         "title": "APCH Ball",
         "date": "October 2024",
         "text": "The Portuguese Association of Historic Houses, with the support of Palácio de Xabregas, is promoting a GALA BALL to be held at Palácio de Xabregas on Saturday, November 16, 2024."
@@ -33,7 +38,12 @@
     "titles": ["Notícias", "Geral"],
     "news": [
       {
-        "title": "Baile da APCH",
+        "title": "Baile de Gala",
+        "date": "Novembro 2024",
+        "text": "O Palácio de Xabregas acolheu, a 16 de novembro, o 1º jantar de gala da Associação Portuguesa de Casas Históricas. O Eng.º António de Mello destacou o compromisso com a preservação do património privado. O evento contou com representantes europeus, música e dança."
+      },
+      {
+        "title": "Evento da Associação",
         "date": "Outubro 2024",
         "text": "A Associação Portuguesa das Casas Históricas , com o apoio do Palácio de Xabregas, está a promover um BAILE DE GALA a realizar no Palácio de Xabregas no sábado 16 de novembro de 2024"
       },

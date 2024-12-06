@@ -4,21 +4,24 @@
       "Events",
       "Activity Plan 2022 - 2025",
       "Previous Events",
+      "Gala Ball",
       "45th Anniversary Celebration",
       "General Assembly",
       "Extraordinary GA"
     ],
     "text": [
-    "The Portuguese Association of Historic Houses has been a driving force in the private built cultural heritage sector, providing a range of services to its members.",
-    "We acknowledge the need to strengthen representation, mobilize and attract new members, as well as to gain full recognition from municipal and governmental authorities.",
-    "Furthermore, we have been establishing strategic partnerships and obtaining support from entities interested in promoting the heritage of our members.",
-    "As such, we have developed an activity plan to be carried out until 2025, which includes some of the following measures:",
-    "Holding the cocktail celebration for the 45 years of APCH",
-    "Benfica, 10/18/2023",
-    "Conducting the General Assembly on July 1, 2023. The association renews its website along with its name, which changed from Portuguese Association of Ancient Houses to Portuguese Association of Historic Houses.",
-    "07/01/2023",
-    "Extraordinary General Assembly held on November 4th.",
-    "Porto, 11/04/2023"
+      "The Portuguese Association of Historic Houses has been a driving force in the private built cultural heritage sector, providing a range of services to its members.",
+      "We acknowledge the need to strengthen representation, mobilize and attract new members, as well as to gain full recognition from municipal and governmental authorities.",
+      "Furthermore, we have been establishing strategic partnerships and obtaining support from entities interested in promoting the heritage of our members.",
+      "As such, we have developed an activity plan to be carried out until 2025, which includes some of the following measures:",
+      "The 1st gala dinner of the Portuguese Association of Historic Houses took place in Lisbon on November 16, at the fantastic Xabregas Palace.",
+      "Lisbon, 16/11/2024",
+      "Holding the cocktail celebration for the 45 years of APCH",
+      "Benfica, 10/18/2023",
+      "Conducting the General Assembly on July 1, 2023. The association renews its website along with its name, which changed from Portuguese Association of Ancient Houses to Portuguese Association of Historic Houses.",
+      "07/01/2023",
+      "Extraordinary General Assembly held on November 4th.",
+      "Porto, 11/04/2023"
     ],
     "list1": [
       "Negotiation of contracts with utility companies to provide benefits to members.",
@@ -32,17 +35,14 @@
       "Assistance in brokering sales of Antique Houses with a cultural focus.",
       "Promotion and constant updating of APCA's social media."
     ],
-    "btns": [
-      "sign me up",
-      "sign me up",
-      "sign me up"
-    ]
+    "btns": ["sign me up", "sign me up", "sign me up"]
   },
   "pt": {
     "titles": [
       "Eventos",
       "Plano de actividades 2022 - 2025",
       "Eventos anteriores",
+      "Baile de gala",
       "Celebração 45 anos",
       "Assembleia Geral",
       "AG extraordinária"
@@ -52,6 +52,8 @@
       "Reconhecemos a necessidade de fortalecer a representatividade, mobilizar e atrair novos associados, além de conquistar o reconhecimento pleno das autoridades municipais e governamentais.",
       "Além disso, temos vindo a estabelecer parcerias estratégicas e obter apoio de entidades interessadas em promover o património dos nossos associados.",
       "Assim, desenvolvemos um plano de actividades para levar a cabo até 2025, o qual conta com algumas das seguintes medidas:",
+      "Teve lugar em Lisboa a 16 de Novembro , no fantástico Palácio de Xabregas , o 1º jantar de gala da Associação Portuguesa de Casas Históricas",
+      "Lisboa, 16/11/2024",
       "Realização do cocktail de comemoração dos 45 anos da APCH no dia 18 de outubro em Benfica.",
       "Benfica, 18/10/2023",
       "Realização da Assembleia Geral a 1 de Julho de 2023. A associação renova o seu website juntamente com o seu nome que passou de associação portuguesa das casas antigas para associação portuguesa das casas históricas.",
@@ -71,10 +73,6 @@
       "Assessoria na intermediação de vendas de Casas Antigas com enfoque cultural.",
       "Promoção e atualização constante das redes sociais da APCA."
     ],
-    "btns": [
-      "inscrever-me",
-      "inscrever-me",
-      "inscrever-me"
-    ]
+    "btns": ["inscrever-me", "inscrever-me", "inscrever-me"]
   }
 }

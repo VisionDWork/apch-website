@@ -165,12 +165,12 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .news-card {
     position: relative;
-    width: 14rem;
-    height: 14rem;
-    padding: 1.3rem;
+    width: 18rem;
+    height: 18rem;
+    padding: 1rem;
   }
 
   .news-text {
